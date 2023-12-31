@@ -84,10 +84,3 @@ for index, key in enumerate(sorted(delky_slov_pocet, reverse=False)):
       print(
             f"{key:>3}| {delka_hvezdicky}{'|':>{(len(hlavicka_vypis)-8) - delky_slov_pocet.setdefault(key) }}{delky_slov_pocet.setdefault(key)}"
       )
-
-
-
-
-
-
-
